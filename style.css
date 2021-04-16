@@ -31,6 +31,15 @@ body{
 .references h4{
     margin-bottom: 0;
 }
+.skills th{
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px rgb(2, 2, 58) solid;
+}
+.skills td{
+    text-align: center;
+    border-bottom: 1px rgb(2, 2, 58) solid;
+
+}
 .hobbs{
     display: flex;
     align-items: center;
@@ -52,6 +61,10 @@ body{
     }
     .container h2{
         font-size: 18px;
+    }
+    .skills th,
+    .skills td{
+        font-size: 12px;
     }
     .hobbs{
         display: flex;
